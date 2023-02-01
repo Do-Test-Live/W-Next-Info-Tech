@@ -1,0 +1,23 @@
+RewriteEngine on
+
+RewriteRule ^home-zh zh_home.html [L]
+
+RewriteRule ^index index.html [L]
+
+RewriteRule ^home home-page.html [L]
+
+RewriteRule ^members registration.html [L]
+
+RewriteRule ^member_zh registration_c.html [L]
+
+RewriteRule ^zh zh.html [L]
+
+RewriteRule ^login login.php [L]
+
+RewriteRule ^signin signIn_zh.php [L]
+
+RewriteRule ^signup signUp.html [L]
+
+
+
+

@@ -9,17 +9,6 @@ $(document).ready(function () {
     });
 });
 
-
-setTimeout(() => {
-    const loaderBody = document.getElementById('loader-body');
-
-    const loaderText = document.getElementById('loader-text');
-
-    loaderText.style.display = 'none';
-    loaderBody.style.visibility = 'visible';
-
-}, 3000);
-
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('main_nav')
 navLinks.forEach((l) => {
@@ -45,6 +34,7 @@ window.setInterval(async function () {
             lazy: true,
             autoplay: {
                 delay: 1,
+                reverseDirection: true,
             },
             loop: true,
             slidesPerView: 'auto',
@@ -66,28 +56,16 @@ window.setInterval(async function () {
             disableOnInteraction: true
         });
 
-        new Swiper('.swiper--bottom', {
-            spaceBetween: 0,
-            centeredSlides: true,
-            speed: 6000,
-            lazy: true,
-            autoplay: {
-                delay: 1,
-                reverseDirection: true
-            },
-            loop: true,
-            slidesPerView: 'auto',
-            allowTouchMove: false,
-            disableOnInteraction: true
-        });
-
         $video[0].load();
         load_slider = 1;
     }
 
     $video[0].play();
 
-    let colors = ['#000000e6', '#173f5fe6', '#17185FB2'];
+}, 1000)
+
+window.setInterval(async function () {
+    let colors = ['#000000B2', '#49205eB2', '#17185FB2'];
     let random_color = colors[Math.floor(Math.random() * colors.length)];
     document.getElementById('body').style.background = random_color;
     document.getElementById('main-body').style.background = random_color;
@@ -137,6 +115,7 @@ window.setInterval(async function () {
             lazy: true,
             autoplay: {
                 delay: 1,
+                reverseDirection: true,
             },
             loop: true,
             slidesPerView: 'auto',
@@ -151,21 +130,6 @@ window.setInterval(async function () {
             lazy: true,
             autoplay: {
                 delay: 1,
-            },
-            loop: true,
-            slidesPerView: 'auto',
-            allowTouchMove: false,
-            disableOnInteraction: true
-        });
-
-        new Swiper('.swiper--bottom', {
-            spaceBetween: 0,
-            centeredSlides: true,
-            speed: 8000,
-            lazy: true,
-            autoplay: {
-                delay: 1,
-                reverseDirection: true
             },
             loop: true,
             slidesPerView: 'auto',

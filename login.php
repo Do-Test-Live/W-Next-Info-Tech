@@ -33,7 +33,7 @@ if (isset($_SESSION['userid'])) {
             <div class="container-fluid">
                 <a class="navbar-brand" href="index">
                     <img alt="" class="img-fluid logo"
-                         src="assets/images/logo/NGT-logo.png"/>
+                         src="assets/images/logo/NEXT-logo.png"/>
                 </a>
 
                 <div class="collapse-social-icons" style="position: inherit;margin-right: -45%;">
@@ -154,12 +154,12 @@ if (isset($_SESSION['userid'])) {
                         <div class="row">
                             <div class="col-lg-6">
                                 <p>
-                                    Enjoy your stay in NGT City.
+                                    Enjoy your stay in NEX City
                                 </p>
                             </div>
                             <div class="col-lg-6 footer-line">
                                 <p>
-                                    business@ngttech.io | COPYRIGHT © 2022 NGT All Rights Reserved
+                                    business@nextinfotechs.com | COPYRIGHT © 2022 NEXT INFO TECHS All Rights Reserved
                                 </p>
                             </div>
 

@@ -99,7 +99,6 @@ p{
 
 .slider-image-size {
     height: 350px;
-    border-radius: 15px;
 }
 
 .swiper-container {
@@ -628,7 +627,7 @@ p{
     z-index: 1;
     text-align: center;
     width: 100%;
-    text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #004303 0px 0px 15px, #004703 0px 0px 20px, #068e0c 0px 0px 30px, #000601 0px 0px 40px, #213422 0px 0px 50px, #000000 0px 0px 75px;
+    text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #bf00ff 0px 0px 15px, #bf00ff 0px 0px 20px, #bf00ff 0px 0px 30px, #bf00ff 0px 0px 40px, #bf00ff 0px 0px 50px, #000000 0px 0px 75px;
 }
 
 .nav-link {
